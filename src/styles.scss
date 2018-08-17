@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~swiper/dist/css/swiper.min.css';
+
+body {
+  background-color: #222629;
+  color: #e0e0e0;
+}
+
+a {
+  color: #86C232;
+}
+
+a:hover {
+  color: #FAED26;
+}
+
+
+.swiper-pagination-bullet {
+  background: white;
+}
+
+.swiper-pagination-bullet-active-next,
+.swiper-pagination-bullet-active-next-next,
+.swiper-pagination-bullet-active-prev,
+.swiper-pagination-bullet-active-prev-prev {
+  opacity: .75;
+}

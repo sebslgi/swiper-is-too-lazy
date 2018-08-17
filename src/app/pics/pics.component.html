@@ -1,0 +1,22 @@
+<app-menu></app-menu>
+
+<h1>
+  {{ animalName }}
+</h1>
+
+<h2>
+  Animal pictures
+</h2>
+
+<div  class="swiper-container" [swiper]="swiperConfig" [(index)]="swiperIndex">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" *ngFor="let image of animalImages">
+      <div class="img-wrapper swiper-lazy">
+        <img [attr.data-src]="image" class="swiper-lazy">
+      </div>
+      <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+    </div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+</div>

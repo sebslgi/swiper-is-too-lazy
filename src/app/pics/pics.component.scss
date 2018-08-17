@@ -1,0 +1,11 @@
+.img-wrapper {
+  width: 100vw;
+  height: 100vw;
+  background: url('/assets/sad-face.png') center / contain no-repeat;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

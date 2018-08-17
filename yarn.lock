@@ -1769,6 +1769,12 @@ dom-serializer@0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
+dom7@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.0.7.tgz#43940bff361cc0e5f38c349b055fd60c10309b89"
+  dependencies:
+    ssr-window "^1.0.0"
+
 domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
@@ -3926,6 +3932,12 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
+ngx-swiper-wrapper@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/ngx-swiper-wrapper/-/ngx-swiper-wrapper-6.4.0.tgz#bafe56ce5d04816043902e97edf3e9b073d913db"
+  dependencies:
+    swiper "^4.3.0"
+
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
@@ -5493,6 +5505,10 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
+ssr-window@^1.0.0, ssr-window@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-1.0.1.tgz#30752a6a4666e7767f0b7e6aa6fc2fdbd0d9b369"
+
 ssri@^5.2.4:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.3.0.tgz#ba3872c9c6d33a0704a7d71ff045e5ec48999d06"
@@ -5660,6 +5676,13 @@ supports-color@^5.1.0, supports-color@^5.3.0, supports-color@^5.4.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
   dependencies:
     has-flag "^3.0.0"
+
+swiper@^4.3.0:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.3.5.tgz#40369d4870e66cd10eb9862329af63b8a582aca1"
+  dependencies:
+    dom7 "^2.0.7"
+    ssr-window "^1.0.1"
 
 symbol-observable@^1.2.0:
   version "1.2.0"
